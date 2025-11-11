@@ -1,0 +1,96 @@
+{
+  "committed": [
+    ".gitignore",
+    "Real-Time-Clickstream-Analysis/flask/app/static/fonts/glyphicons-halflings-regular.eot",
+    "Real-Time-Clickstream-Analysis/image/pipeline.png",
+    "Real-Time-Clickstream-Analysis/flask/app/static/css/bootstrap-theme.min.css",
+    "Real-Time-Clickstream-Analysis/flask/app/static/fonts/glyphicons-halflings-regular.ttf",
+    "Real-Time-Clickstream-Analysis/flask/app/static/js/bootstrap.js",
+    "Real-Time-Clickstream-Analysis/flask/app/__init__.py",
+    "Real-Time-Clickstream-Analysis/flask/app/templates/batch.html",
+    "Real-Time-Clickstream-Analysis/flask/run.py"
+  ],
+  "events": [
+    {
+      "file": ".gitignore",
+      "author": {
+        "name": "Dhruv Khanna",
+        "email": "dhruvkhanna930@gmail.com"
+      },
+      "time": "2025-11-11T10:06:51.575523Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/app/static/fonts/glyphicons-halflings-regular.eot",
+      "author": {
+        "name": "Nikhil Sorout",
+        "email": "nikhilsorout6@gmail.com"
+      },
+      "time": "2025-11-11T10:37:02.593198Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/image/pipeline.png",
+      "author": {
+        "name": "Dhruv Khanna",
+        "email": "dhruvkhanna930@gmail.com"
+      },
+      "time": "2025-11-11T10:50:41.577022Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/app/static/css/bootstrap-theme.min.css",
+      "author": {
+        "name": "Nikhil Sorout",
+        "email": "nikhilsorout6@gmail.com"
+      },
+      "time": "2025-11-11T11:03:46.374464Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/app/static/fonts/glyphicons-halflings-regular.ttf",
+      "author": {
+        "name": "Nikhil Sorout",
+        "email": "nikhilsorout6@gmail.com"
+      },
+      "time": "2025-11-11T11:36:25.361538Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/app/static/js/bootstrap.js",
+      "author": {
+        "name": "Dhruv Khanna",
+        "email": "dhruvkhanna930@gmail.com"
+      },
+      "time": "2025-11-11T11:42:57.377841Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/app/__init__.py",
+      "author": {
+        "name": "Dhruv Khanna",
+        "email": "dhruvkhanna930@gmail.com"
+      },
+      "time": "2025-11-11T11:49:06.846528Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/app/templates/batch.html",
+      "author": {
+        "name": "Dhruv Khanna",
+        "email": "dhruvkhanna930@gmail.com"
+      },
+      "time": "2025-11-11T11:55:08.187529Z",
+      "status": "committed"
+    },
+    {
+      "file": "Real-Time-Clickstream-Analysis/flask/run.py",
+      "author": {
+        "name": "Dhruv Khanna",
+        "email": "dhruvkhanna930@gmail.com"
+      },
+      "time": "2025-11-11T11:58:10.299900Z",
+      "status": "committed"
+    }
+  ]
+}
