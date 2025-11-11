@@ -8,12 +8,12 @@ The motivation for building such a platform is that clickstream data is very com
 | Google        | Super Bowl    | 2017-02-07 16:34:48 |
 
 ## Data Source
-I use the February 2015 data from Wikipedia Clickstream dataset. The data can be downloaded from this [link](https://figshare.com/articles/Wikipedia_Clickstream/1305770). The documentation of the data can be found in this [link](https://ewulczyn.github.io/Wikipedia_Clickstream_Getting_Started/)
+I use the February 2015 data from Wikipedia Clickstream dataset. The data can be downloaded from this [link](https://figshare.com/articles/Wikipedia_Clickstream/1305770).
 
 ## Data Pipeline
 The data pipeline for the platform is shown in the following picture. First generate clickstream data from Wikipedia clickstream dataset. Then use Kafka to ingest the message. Then there is one batch line and one streaming line. The batch line use HDFS to store all the raw data and use spark to do batch processing. The streaming line use Spark Streaming to do nearly real time processing. Both batch and real-time lines will store processed data in Cassandra. Finally use Flask to visualize it.
 
-![pipeline](/image/pipeline.png?raw=true "pipeline")
+![pipeline](/Real-Time-Clickstream-Analysis/image/pipeline.png?raw=true "pipeline")
 
 ## Usage Instruction
 This code was run on Amazon AWS servers.
@@ -37,6 +37,6 @@ Download February 2015 data to data folder and then run:
 `$ sudo -E python flask/tornadoapp.py <public_dns>`
 
 ## Demo
-The presentation is available [here](https://docs.google.com/presentation/d/1U2U0Doo2EPh9osboorMb4jAOHzCneGV_Z_hDvs8WjpM/edit?usp=sharing)
+The presentation is available [here](https://docs.google.com/presentation/d/1Ee8r7hu2aJ1Jlua-iOKe3oHtvoKhrqhVzymRv2bRfXI/edit?usp=sharing)
 <br>
-The video for demo is available [here](https://youtu.be/gIu9z1A_NwI)
+The video for demo is available [here](https://drive.google.com/file/d/16y08CY3YCdY9z91iZDzyUis45HJR3rpz/view?usp=sharing)
